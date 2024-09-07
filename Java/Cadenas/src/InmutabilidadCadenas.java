@@ -7,6 +7,7 @@ public class InmutabilidadCadenas {
         //creamos una cadena2 que almacenara la referencia de cadena1
         var cadena2=cadena1;
         cadena1="adios";
-        System.out.println("cadena1 = " + cadena1);
+        System.out.println("cadena1 modificado = " + cadena1);
+        System.out.println("cadena2 = " + cadena2);
     }
 }
