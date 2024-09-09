@@ -22,7 +22,7 @@ public class GeneradorEmails {
         var nombreEmpresaNormalizado=nombreEmpresa.strip().replace(" ",".").toLowerCase();
         var dominioEmailNormalizado="@"+ nombreEmpresaNormalizado + extensionDominio;
         System.out.println("dominioEmailNormalizado = " + dominioEmailNormalizado);
-        
+
         //Creamos el email final
         var emailNormalizado=nombreNormalizado+dominioEmailNormalizado;
         System.out.println("emailNormalizado = " + emailNormalizado);
