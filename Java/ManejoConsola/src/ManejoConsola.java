@@ -1,3 +1,4 @@
+package Java.ManejoConsola.src;
 import java.util.Scanner;
 
 public class ManejoConsola {
